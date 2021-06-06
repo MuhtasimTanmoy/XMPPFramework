@@ -520,9 +520,9 @@
             }
         }
         
-        if (!self.pepPublisherJIDs && !self.pepNodes) {
-            if (![myJID isEqualToJID:[message from] options:XMPPJIDCompareBare]) return;
-        }
+//         if (!self.pepPublisherJIDs && !self.pepNodes) {
+//             if (![myJID isEqualToJID:[message from] options:XMPPJIDCompareBare]) return;
+//         }
 	}
     
     [multicastDelegate xmppPubSub:self didReceiveMessage:message];
